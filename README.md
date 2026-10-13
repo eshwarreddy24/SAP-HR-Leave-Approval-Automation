@@ -11,6 +11,8 @@ An HR operations portfolio project exploring employee leave requests, manager de
 
 **Engineering extension:** [Enterprise engineering roadmap](docs/enterprise-engineering-roadmap.md) covering idempotent retries, concurrency controls, manager delegation, audit integrity, and observability. All features are planned unless individually verified.
 
+**Current build scope:** [Interview-friendly MVP](docs/interview-friendly-mvp.md), using Python, FastAPI, SQLite and a mock SAP gateway. The broader enterprise roadmap remains optional and unimplemented.
+
 ## Business problem and objective
 Manual leave requests may involve missing information, unclear ownership and inconsistent routing. The goal is to design and, if trial access permits, configure a structured approval process, test the different decisions, and document the outcome.
 
