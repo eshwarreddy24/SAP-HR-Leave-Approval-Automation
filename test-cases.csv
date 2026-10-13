@@ -1,0 +1,7 @@
+ID,Scenario,Expected result,Actual result,Status,Test date,Evidence file
+TC01,Valid employee request submitted,Request accepted and routed to manager if configured,,Not run,,
+TC02,Missing required employee ID,Validation blocks or flags incomplete form if configured,,Not run,,
+TC03,Manager approves request,Process follows configured approval branch,,Not run,,
+TC04,Manager rejects request,Process follows configured rejection branch,,Not run,,
+TC05,HR validates approved request,HR review completes if implemented,,Not run,,
+TC06,HR requests correction,Exception path is followed if implemented,,Not run,,
