@@ -9,6 +9,8 @@ An HR operations portfolio project exploring employee leave requests, manager de
 
 > This is a learning prototype with synthetic data, not an AAI deployment, a classic SAP HCM ESS/MSS implementation or an integration with SAP SuccessFactors. Statuses are updated only after real configuration and tests.
 
+**Engineering extension:** [Enterprise engineering roadmap](docs/enterprise-engineering-roadmap.md) covering idempotent retries, concurrency controls, manager delegation, audit integrity, and observability. All features are planned unless individually verified.
+
 ## Business problem and objective
 Manual leave requests may involve missing information, unclear ownership and inconsistent routing. The goal is to design and, if trial access permits, configure a structured approval process, test the different decisions, and document the outcome.
 
